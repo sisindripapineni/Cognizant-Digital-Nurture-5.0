@@ -1,0 +1,45 @@
+CREATE DATABASE IF NOT EXISTS week2_sql;
+USE week2_sql;
+
+CREATE TABLE Employee2 (
+    Emp_ID INT PRIMARY KEY,
+    Emp_Name VARCHAR(50),
+    Salary DECIMAL(10,2)
+);
+INSERT INTO Employee2 VALUES
+(101,'Sathwik',40000),
+(102,'Rahul',55000),
+(103,'Kiran',48000);
+DELIMITER //
+CREATE PROCEDURE GetEmployees()
+BEGIN
+    SELECT * FROM Employee2;
+END //
+
+DELIMITER ;
+CALL GetEmployees();
+DELIMITER //
+
+CREATE PROCEDURE GetEmployeeById(IN id INT)
+BEGIN
+    SELECT * FROM Employee2
+    WHERE Emp_ID = id;
+END //
+
+DELIMITER ;
+CALL GetEmployeeById(102);
+DELIMITER //
+
+CREATE PROCEDURE UpdateSalary(
+    IN id INT,
+    IN newSalary DECIMAL(10,2)
+)
+BEGIN
+    UPDATE Employee2
+    SET Salary = newSalary
+    WHERE Emp_ID = id;
+END //
+
+DELIMITER ;
+CALL UpdateSalary(101,50000);
+SELECT * FROM Employee2;

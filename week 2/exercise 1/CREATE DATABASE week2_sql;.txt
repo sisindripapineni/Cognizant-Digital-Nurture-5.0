@@ -1,0 +1,12 @@
+CREATE DATABASE week2_sql;
+USE week2_sql;
+CREATE TABLE Employees (
+    Emp_ID INT PRIMARY KEY,
+    Emp_Name VARCHAR(50),
+    Salary DECIMAL(10,2)
+);
+INSERT INTO Employees VALUES
+(101,'Sathwik',40000),
+(102,'Rahul',55000),
+(103,'Kiran',48000);
+SELECT * FROM Employees;
