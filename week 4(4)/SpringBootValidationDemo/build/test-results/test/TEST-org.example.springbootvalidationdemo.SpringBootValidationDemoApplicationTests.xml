@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.springbootvalidationdemo.SpringBootValidationDemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-07-15T03:53:27.715Z" hostname="SATHWIKJUTURU" time="5.831">
+  <properties/>
+  <testcase name="contextLoads()" classname="org.example.springbootvalidationdemo.SpringBootValidationDemoApplicationTests" time="1.284"/>
+  <system-out><![CDATA[09:23:28.201 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.example.springbootvalidationdemo.SpringBootValidationDemoApplicationTests]: SpringBootValidationDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:23:28.414 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.example.springbootvalidationdemo.SpringBootValidationDemoApplication for test class org.example.springbootvalidationdemo.SpringBootValidationDemoApplicationTests
+09:23:28.603 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.example.springbootvalidationdemo.SpringBootValidationDemoApplicationTests]: SpringBootValidationDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:23:28.607 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.example.springbootvalidationdemo.SpringBootValidationDemoApplication for test class org.example.springbootvalidationdemo.SpringBootValidationDemoApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.0)
+
+2026-07-15T09:23:29.520+05:30  INFO 23140 --- [SpringBootValidationDemo] [    Test worker] SpringBootValidationDemoApplicationTests : Starting SpringBootValidationDemoApplicationTests using Java 17.0.12 with PID 23140 (started by sathw in C:\Users\sathw\Desktop\java FSE\week 4\SpringBootValidationDemo)
+2026-07-15T09:23:29.525+05:30  INFO 23140 --- [SpringBootValidationDemo] [    Test worker] SpringBootValidationDemoApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T09:23:32.222+05:30  INFO 23140 --- [SpringBootValidationDemo] [    Test worker] SpringBootValidationDemoApplicationTests : Started SpringBootValidationDemoApplicationTests in 3.458 seconds (process running for 6.153)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
